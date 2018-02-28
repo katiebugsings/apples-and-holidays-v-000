@@ -73,7 +73,6 @@ def all_holidays_with_bbq(holiday_hash)
   #holiday_hash[:fourth_of_july][:memorial_day]
   holiday_hash.each do |season, holidays|
     holidays.each do |holiday, supplies|
-      binding.pry
     end
   end
   # return an array of holiday names (as symbols) where supply lists
